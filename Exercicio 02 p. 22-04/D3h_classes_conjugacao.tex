@@ -1,0 +1,108 @@
+De acordo com a definição, dois elementos \( A \) e \( B \) pertencem à mesma classe de conjugação se existe um elemento \( g \in G \) tal que:
+\[
+B = g \circ A \circ g^{-1}
+\]
+Portanto, para encontrar as classes de conjugação do grupo \( D_{3h} \), precisamos calcular o conjugado de cada operação por todas as demais:
+\[
+g \circ A \circ g^{-1}, \quad \text{para todo } g \in D_{3h}
+\]
+Em seguida, agrupamos os elementos \( A \in D_{3h} \) que compartilham o mesmo conjunto de conjugados, formando assim as classes de conjugação.
+
+Conjugações do elemento $E$ \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{E}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\sigma_{v1}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\sigma_{v2}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\sigma_{v3}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\sigma_{h}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\mathrm{E}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [1, 2, 3, 4, 5, 6, 7, 8] = \mathrm{\mathrm{E}}$ \\
+
+Conjugações do elemento $\mathrm{C}_{3}$ \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{E}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{v1}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{v2}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{v3}}^{-1} = [1, 2, 5, 3, 4, 8, 6, 7] = \mathrm{\mathrm{C}_{3}^{2}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{h}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [1, 2, 4, 5, 3, 7, 8, 6] = \mathrm{\mathrm{C}_{3}}$ \\
+
+Conjugações do elemento $\mathrm{C}_{2}^{(a)}$ \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{E}}^{-1} = [2, 1, 6, 8, 7, 3, 5, 4] = \mathrm{\mathrm{C}_{2}^{(a)}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [2, 1, 7, 6, 8, 4, 3, 5] = \mathrm{\mathrm{C}_{2}^{(c)}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [2, 1, 8, 7, 6, 5, 4, 3] = \mathrm{\mathrm{C}_{2}^{(b)}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [2, 1, 6, 8, 7, 3, 5, 4] = \mathrm{\mathrm{C}_{2}^{(a)}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [2, 1, 7, 6, 8, 4, 3, 5] = \mathrm{\mathrm{C}_{2}^{(c)}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [2, 1, 8, 7, 6, 5, 4, 3] = \mathrm{\mathrm{C}_{2}^{(b)}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{v1}}^{-1} = [2, 1, 6, 8, 7, 3, 5, 4] = \mathrm{\mathrm{C}_{2}^{(a)}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{v2}}^{-1} = [2, 1, 7, 6, 8, 4, 3, 5] = \mathrm{\mathrm{C}_{2}^{(c)}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{v3}}^{-1} = [2, 1, 8, 7, 6, 5, 4, 3] = \mathrm{\mathrm{C}_{2}^{(b)}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{h}}^{-1} = [2, 1, 6, 8, 7, 3, 5, 4] = \mathrm{\mathrm{C}_{2}^{(a)}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [2, 1, 7, 6, 8, 4, 3, 5] = \mathrm{\mathrm{C}_{2}^{(c)}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [2, 1, 8, 7, 6, 5, 4, 3] = \mathrm{\mathrm{C}_{2}^{(b)}}$ \\
+
+Conjugações do elemento $\sigma_{v1}$ \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{E}}^{-1} = [1, 2, 3, 5, 4, 6, 8, 7] = \mathrm{\sigma_{v1}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [1, 2, 4, 3, 5, 7, 6, 8] = \mathrm{\sigma_{v3}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [1, 2, 5, 4, 3, 8, 7, 6] = \mathrm{\sigma_{v2}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [1, 2, 3, 5, 4, 6, 8, 7] = \mathrm{\sigma_{v1}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [1, 2, 4, 3, 5, 7, 6, 8] = \mathrm{\sigma_{v3}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [1, 2, 5, 4, 3, 8, 7, 6] = \mathrm{\sigma_{v2}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{v1}}^{-1} = [1, 2, 3, 5, 4, 6, 8, 7] = \mathrm{\sigma_{v1}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{v2}}^{-1} = [1, 2, 4, 3, 5, 7, 6, 8] = \mathrm{\sigma_{v3}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{v3}}^{-1} = [1, 2, 5, 4, 3, 8, 7, 6] = \mathrm{\sigma_{v2}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{h}}^{-1} = [1, 2, 3, 5, 4, 6, 8, 7] = \mathrm{\sigma_{v1}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [1, 2, 4, 3, 5, 7, 6, 8] = \mathrm{\sigma_{v3}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [1, 2, 5, 4, 3, 8, 7, 6] = \mathrm{\sigma_{v2}}$ \\
+
+Conjugações do elemento $\sigma_{h}$  \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{E}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\sigma_{v1}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\sigma_{v2}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\sigma_{v3}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\sigma_{h}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\sigma_{h}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [2, 1, 6, 7, 8, 3, 4, 5] = \mathrm{\sigma_{h}}$ \\
+
+Conjugações do elemento $\mathrm{S}_{3}$ \\[0.7em]
+$\mathrm{\mathrm{E}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{E}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+$\mathrm{\mathrm{C}_{3}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{3}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+$\mathrm{\mathrm{C}_{3}^{2}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{3}^{2}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(a)}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(a)}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(b)}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(b)}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\mathrm{C}_{2}^{(c)}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{C}_{2}^{(c)}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\sigma_{v1}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{v1}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\sigma_{v2}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{v2}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\sigma_{v3}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{v3}}^{-1} = [2, 1, 8, 6, 7, 5, 3, 4] = \mathrm{\mathrm{S}_{3}^{5}}$ \\
+$\mathrm{\sigma_{h}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\sigma_{h}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+$\mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{S}_{3}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+$\mathrm{\mathrm{S}_{3}^{5}} \circ \mathrm{\mathrm{S}_{3}} \circ \mathrm{\mathrm{S}_{3}^{5}}^{-1} = [2, 1, 7, 8, 6, 4, 5, 3] = \mathrm{\mathrm{S}_{3}}$ \\
+
+Portanto o grupo de simetria \(D_{3h}\) possui as seguintes classes de conjugação:
+\vspace{-2.5em}
+\begin{center}
+\[
+\left[
+\{\mathrm{E}\},\ 
+\{\mathrm{C}_{3},\ \mathrm{C}_{3}^{2}\},\ 
+\{\mathrm{C}_{2}^{(a)},\ \mathrm{C}_{2}^{(b)},\ \mathrm{C}_{2}^{(c)}\},\ 
+\{\sigma_{v1},\ \sigma_{v2},\ \sigma_{v3}\},\ 
+\{\sigma_{h}\},\ 
+\{\mathrm{S}_{3},\ \mathrm{S}_{3}^{5}\}
+\right]
+\]
+\end{center}

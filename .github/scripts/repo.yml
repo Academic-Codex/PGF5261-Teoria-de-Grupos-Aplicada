@@ -1,0 +1,16 @@
+TITLE_1: PGF5261
+TITLE_2: Teoria de Grupos Aplicada a Sólidos e Moléculas
+SUBTITLE_1: Disciplina de pós-graduação
+SUBTITLE_2: Material de aula, notebooks e referências.
+
+ABOUT: |
+  Este site organiza as aulas, exercícios e material suplementar da disciplina.
+
+REFERENCIAS: |
+  <ul>
+    <li>Livro AA …</li>
+    <li>Artigo BB …</li>
+  </ul>
+
+GITHUB_LINK: https://github.com/Academic-Codex/PGF5261-Teoria-de-Grupos-Aplicada
+HERO_FILE: teoria-grupos.png
