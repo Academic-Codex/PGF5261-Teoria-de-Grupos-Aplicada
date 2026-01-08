@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://Academic-Codex.github.io/PGF5261-Teoria-de-Grupos-Aplicada-a-Solidos-e-Moleculas">
-    <img src=".github/readme/hero.svg?v=2026-01-08T00:47:24.072006Z" width="100%" alt="Access the course website" />
+    <img src=".github/readme/hero.svg?v=2026-01-08T01:39:29.569268Z" width="100%" alt="Access the course website" />
   </a>
 </p>
 
