@@ -3,8 +3,8 @@
 </p> -->
 
 <p align="center">
-  <a href="https://Academic-Codex.github.io/PGF5261-Teoria-de-Grupos-Aplicada-a-Solidos-e-Moleculas">
-    <img src=".github/readme/hero.svg?v=2026-01-08T01:39:29.569268Z" width="100%" alt="Access the course website" />
+  <a href="https://academic-codex.github.io/PGF5261-Teoria-de-Grupos-Aplicada-a-Solidos-e-Moleculas?utm_source=PGF5261-Teoria-de-Grupos-Aplicada-a-Solidos-e-Moleculas&utm_medium=readme">
+    <img src=".github/readme/hero.svg?v=2026-02-03T01:39:17.182376Z" width="100%" alt="Access the course website" />
   </a>
 </p>
 
